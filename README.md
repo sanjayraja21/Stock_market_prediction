@@ -342,6 +342,28 @@ joblib
 
 ---
 
+## Project Output
+
+### Historical Stock Data
+
+The project uses historical stock market data, including Open, High, Low, Close, Adjusted Close, and Volume values.
+
+![Yahoo Finance Historical Data]
+### Next Trading Day Prediction
+
+The trained models predict the next trading day's closing price using the selected stock features.
+
+![Next Trading Day Prediction]
+
+
+### Ensemble Prediction
+
+The ensemble prediction combines Lasso Regression and XGBoost predictions using:
+
+**Ensemble = 60% Lasso + 40% XGBoost**
+
+![Ensemble Prediction]
+
 ## Important Note
 
 This project demonstrates machine learning techniques for historical stock-price prediction.
